@@ -8,13 +8,18 @@ Anuj Kumar Singh(anujkumar37055@gmail.com)
 
 Title:
 Smart Low-Light Vehicle Detection, Tracking & Classification System
+
 Problem Statement:
 Night-time traffic monitoring suffers from glare, shadows, and poor
 visibility.
+
 Difficult to differentiate between close-proximity vehicles (e.g., 2 bikes vs. 1
 car).
+
 Affects urban traffic management, safety, and enforcement.
+
 Goal:
+
 Develop an AI-based computer vision system that reliably works in low-light
 conditions.
 
@@ -25,11 +30,17 @@ conditions.
 DELIVERABLES
 
 Low-light vehicle detection using YOLOv8
+
 Classification into 2W / 4W
+
 Deep SORT tracking for identity preservation
+
 Number plate detection via OCR
+
 App for video upload & result visualization
+
 Modular, documented Python codebase
+
 Runs on GPU with CUDA support
 
 
