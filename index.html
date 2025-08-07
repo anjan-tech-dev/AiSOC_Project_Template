@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🚦 Night-Time Traffic Monitoring</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 30px;
+      color: #ffcc00;
+      text-shadow: 2px 2px 10px #000;
+    }
+
+    .upload-box {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      padding: 40px;
+      width: 90%;
+      max-width: 500px;
+      margin: auto;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    }
+
+    input[type="file"] {
+      padding: 10px;
+      background-color: #111;
+      color: #fff;
+      border: 1px solid #444;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
+      background: #1db954;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #1ed760;
+    }
+
+    footer {
+      margin-top: 100px;
+      color: #aaa;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🚦 Night-Time Traffic Monitoring</h1>
+  <div class="upload-box">
+    <form action="/upload/" enctype="multipart/form-data" method="post">
+      <input type="file" name="file" accept="video/*" required><br>
+      <button type="submit">Upload & Detect Vehicles</button>
+    </form>
+  </div>
+  <footer>
+    Built with ❤️ using FastAPI, YOLOv8, and DeepSORT
+  </footer>
+</body>
+</html>

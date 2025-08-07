@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>📹 Processed Traffic Video</title>
+  <style>
+    body {
+      background: #121212;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    h2 {
+      font-size: 2.5em;
+      margin-bottom: 40px;
+      color: #00ffff;
+      text-shadow: 2px 2px 8px #000;
+    }
+
+    video {
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 30px;
+      color: #1db954;
+      font-size: 18px;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      color: #1ed760;
+    }
+
+    footer {
+      margin-top: 80px;
+      color: #777;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <h2>📹 Your Processed Video is Ready</h2>
+  <video width="700" height="400" controls autoplay>
+    <source src="/uploads/{{ video_name }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <br><br>
+  <a href="/">← Upload Another Video</a>
+  <footer>
+    Night-time AI Traffic Monitor | Powered by FastAPI + YOLOv8 + DeepSORT
+  </footer>
+</body>
+</html>
