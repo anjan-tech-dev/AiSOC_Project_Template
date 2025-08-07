@@ -1,71 +1,37 @@
 # AISOC 2025
 
-## ⚙️ Guidelines
+Night Time Traffic Monitoring System
+BOT FORGE
+Anjanjot Kaur (anjanjotkaur8@gmail.com)
+Nancy Gupta (nancyg8029@gmail.com)
+Anuj Kumar Singh(anujkumar37055@gmail.com)
 
-- Each team must **fork this repository** before starting development.
-- Rename your forked repository using your **official team name**.
-- Update this README in the root of your repo and include: 
-  - Team members' full names and emails  
-  - The assigned problem statement (already allotted)
-  - A quick start guide with examples to run your code
-  - Any other details if we need to know
-  
-- Ensure **all code, documentation, and related work is committed to your forked repository**. 
-- Make **regular commits** throughout the program. Your commit history will be considered during the evaluation to assess collaboration and progress.
-- Each team is required to create an issue in the repository using the `aisoc-workspace` issue template. This issue must include the following details:
+Title:
+Smart Low-Light Vehicle Detection, Tracking & Classification System
+Problem Statement:
+Night-time traffic monitoring suffers from glare, shadows, and poor
+visibility.
+Difficult to differentiate between close-proximity vehicles (e.g., 2 bikes vs. 1
+car).
+Affects urban traffic management, safety, and enforcement.
+Goal:
+Develop an AI-based computer vision system that reliably works in low-light
+conditions.
 
-  - Team information  
-  - Project title and problem statement  
-  - Timeline with clear milestones  
-  - Expected outcomes and deliverables  
+<img width="1469" height="640" alt="image" src="https://github.com/user-attachments/assets/8fdb1c2c-d9e3-4797-90fc-409ec8fc59e6" />
 
-All project-related discussions, updates, and queries must be conducted within this issue thread to ensure transparency and open collaboration across teams.
+<img width="1452" height="674" alt="image" src="https://github.com/user-attachments/assets/bd9c1db1-79b0-49b0-949a-e6f6f12cf977" />
 
-## Final Submission Guidelines
+DELIVERABLES
 
-Please carefully follow the instructions below to ensure successful completion and evaluation of your project:
-
-1. **Working Demo**  
-   - Before the final submission, you must include a working demo of your project.  
-   - The demo should clearly explain the problem statement and how your solution addresses it.  
-   - Upload your project to a shared location (e.g., Google Drive) and include the access link.
-
-2. **Presentation Requirement**  
-   - You are required to prepare a brief presentation detailing your solution.  
-   - This presentation must be delivered **offline** to the evaluation panel.  
-   - The presentation will be scheduled towards the end of July.
-
-3. **Evaluation Criteria**  
-   - Your final evaluation and the issuance of a certificate of completion will be based on:
-     - Submission of a working demo with a clear explanation.
-     - A shared drive link to your project.
-     - A completed offline presentation to the panel.
-   - Any changes or deviations from these requirements must be discussed and approved by the program staff.  
-   - Failure to comply with these guidelines may result in termination of your contract.
-
-Please ensure all deliverables are ready and submitted according to the above criteria.
+Low-light vehicle detection using YOLOv8
+Classification into 2W / 4W
+Deep SORT tracking for identity preservation
+Number plate detection via OCR
+App for video upload & result visualization
+Modular, documented Python codebase
+Runs on GPU with CUDA support
 
 
-
-## 🚀 All the best & Happy Building! 🚀
-
-
-## 📌 Project Overview
-
-Below are the projects allotted to different teams in AISoC 2025:
-
-- **Project 1**: A chatbot system using advanced AI techniques to provide instant answers to university-related queries based on official web content.
-- **Project 2**: A privacy-first mobile/web application that detects and identifies environmental sounds such as alarms and sirens in real time.
-- **Project 3**: A surveillance system that monitors PPE compliance and detects unusual behavior by analyzing CCTV footage and walking patterns.
-- **Project 4**: An indoor navigation tool leveraging BLE sensors to provide accurate, real-time location tracking within buildings.
-- **Project 5**: A diagnostic solution that uses thermal imaging to track bacterial growth without physical contact or high-cost equipment.
-- **Project 6**: A computer vision tool that detects and classifies vehicles at night, designed to improve traffic monitoring in low-light conditions.
-- **Project 7**: A system to test and deploy fast, offline speech-to-text models that ensure privacy and responsiveness.
-- **Project 8**: A backend framework that wraps existing project features into reusable, documented APIs to simplify integration and deployment.
-- **Project 9**: A multi-factor attendance system combining face, voice, Bluetooth, and geolocation authentication with a focus on security.
-- **Project 10**: A complete revamp of official university websites to enhance user experience, performance, and visual appeal.
-- **Project 11**: A design-focused initiative encouraging teams to develop impactful user interfaces and design prototypes with a creative edge.
-
----
 
 
